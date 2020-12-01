@@ -220,31 +220,41 @@ h1 {
     margin-right: 25%;
 }
 
-#title {
+.titleBox {
     padding-top: 5% !important;
     height: 100%;
+    width: 100%;
+    position: relative;
 }
 
 .titleTextBack {
     background-color: #cc0063;
-    color: #0c1d24;
+    color: #f2f2f2;
     height: 70%;
-    width: 30%;
-    margin-top: 8%;
-    margin-bottom: 22%;
-    margin-right: 20%;
-    margin-left: 50%;
+    width: 40%;
+    top: 20%;
+    bottom: 22%;
+    right: 15%;
+    left: 45%;
     z-index: 1 !important;
+    position: absolute;
+}
+
+.titleText {
+    padding-left: 45%;
+    margin-top: 23%;
 }
 
 .titlePhotoDiv {
-    margin-left: 20%;
-    margin-top: 15%;
-    z-index: 999 !important;
+    left: 20%;
+    top: 20%;
+    bottom: 5%;
+    z-index: 990 !important;
+    position: relative;
 }
 
 .titlePhoto {
-    width: 60%;
+    width: 40%;
     height: auto;
 }
 
