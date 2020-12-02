@@ -183,7 +183,7 @@ li a,
 }
 
 .arrow {
-    color: #0c1d24;
+    color: #cc0063;
 }
 
 .arrow:hover {
@@ -256,6 +256,21 @@ h1 {
 .titlePhoto {
     width: 40%;
     height: auto;
+}
+
+.profilFoto {
+    width: 100%;
+    height: auto;
+}
+
+.profilFoto:hover {
+    background-color: #cc0063;
+    opacity: 70%;
+    color: #0c1d24;
+}
+
+.nameAbout {
+    text-align: center;
 }
 
 
